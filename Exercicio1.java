@@ -7,7 +7,7 @@ class Exercicio1
   
     static void findMin(int V)
     {
-        ArrayList<String> ans = new ArrayList<String>();
+        ArrayList<Integer> ans = new ArrayList<Integer>();
   
         for (int i = n - 1; i >= 0; i--)
         {
@@ -21,8 +21,7 @@ class Exercicio1
   
         for (int i = 0; i < ans.size(); i++)
         {
-            System.out.print(
-                " " + ans.elementAt(i));
+            System.out.print(" " + ans.get(i));
         }
     }
    
